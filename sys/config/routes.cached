@@ -1,0 +1,9 @@
+[home]
+path = serjeant/home
+match_type = regex
+params[page] = %d
+function = _home
+authenticated = true
+authentication = user_login
+roles[] = JIRA_USER
+controller = Platypus\Controller\Controller
